@@ -13,7 +13,6 @@ export default class ServerMessage {
         readFile(`${fileName}.html`, (err, data) => {
             let page = data.toString();
             const matches = page.match(this.regexPattern)?.map(m => m.slice(1,-1));
-            console.log(matches);
             if(json && matches) {
                 matches?.forEach(k => {
                     page = page.replace(`#${k}#`, json[k]);
