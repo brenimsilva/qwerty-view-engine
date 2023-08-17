@@ -1,0 +1,19 @@
+{
+  "name": "studyhttp",
+  "version": "1.0.0",
+  "description": "study http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-http-server"
+  },
+  "author": "Breno Almeida",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.5.0"
+  }
+}
